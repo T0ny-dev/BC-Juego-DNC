@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #0f0f0f;
+}
+
+.Aviso {
+  color: aliceblue;
+  display: none;
+}
+
+@media (max-width: 600px) {
+  iframe{
+    display: none;
+  }
+  .Aviso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 5vw;
+  }
+}
